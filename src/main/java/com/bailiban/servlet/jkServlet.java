@@ -26,6 +26,7 @@ public class jkServlet extends HttpServlet {
         while (iterator.hasNext()){
             System.out.println(Arrays.toString(iterator.next()));
         }
+        //测试
         values.forEach(s-> System.out.println(Arrays.toString(s)));
     }
 
